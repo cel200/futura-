@@ -1,0 +1,16 @@
+.nav-link:hover {
+       color:darkgoldenrod !important;
+}
+.btn{
+       background-image: linear-gradient(to right, #FF512F 0%, #F09819  51%, #FF512F  100%);
+       color: white;
+       font-family:'Poppins', sans-serif;
+       height: 50px;
+       align-items: center;
+       font-weight: 700;
+
+       min-width: 160px;
+       
+       
+}
+

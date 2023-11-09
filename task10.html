@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="task10.css">
+</head>
+<body>
+    <form>
+        <table>
+            <thead>
+                <tr>
+                    <th class="table-heading" colspan="3">Sign Up</th>
+                </tr>
+            </thead>
+                <br>
+                <tbody>
+                    <tr>
+                        <td class="first-column">First Name</td>
+                        <td class="second-column"><input type="text" placeholder="Enter First Name"></td>
+                    </tr>
+                    <br>
+                    <tr>
+                        <td class="first-column">Last Name</td>
+                        <td class="second-column"><input type="text" placeholder="Enter Last name"></td>
+                    </tr>
+                    <tr>
+                        <td class="first-column">Date of birth</td>
+                        <td class="second-column">
+                            <div>
+                                <select>
+                                    <option disabled selected hidden>Date</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                </select>
+                                <select>
+                                    <option disabled selected hidden>Month</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                </select>
+                                <select>
+                                    <option disabled selected hidden>Year</option>
+                                    <option value="2000">2000</option>
+                                    <option value="2001">2001</option>
+                                    <option value="2002">2002</option>
+                                </select>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="first-column">Gender</td>
+                        <td class="second-column">
+                            <div>
+                                <input type="radio" value="male" name="gender">Male
+                                <input type="radio" value="female" name="gender">Female
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="first-column">Country</td>
+                        <td class="second-column">
+                            <select>
+                                <option disabled selected hidden>Country</option>
+                                <option value="india">India</option>
+                                <option value="australia">Australia</option>
+                                <option value="canada">Canada</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="first-column">Email id</td>
+                        <td class="second-column">
+                            <input type="mail" placeholder="mail id">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="first-column">Phone</td>
+                        <td class="second-column"><input type="tel" placeholder="Enter phone"></td>
+                    </tr>
+                    <tr>
+                        <td class="first-column">Password</td>
+                        <td class="second-column"><input type="password"></td>
+                    </tr>
+                    <tr>
+                        <td class="first-column">Confirm Password</td>
+                        <td class="second-column"><input type="password"></td>
+                    </tr>
+                    <tr>
+                        <td class="first-column"></td>
+                        <td class="second-column">
+                            <input type="checkbox">I agree to the terms of use
+                        </td>
+                    </tr>
+                    <tr id="last">
+                        <td></td> 
+                        <td><input type="submit" id="sub"></td>
+                        <td><input type="reset" id="res" value="cancel"></td> 
+                    </tr>
+                    </tbody>
+            </table>
+        
+    </form>
+</body>
+</html>

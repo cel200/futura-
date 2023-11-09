@@ -1,0 +1,38 @@
+table {
+    border: solid 1px;
+    font-family: 'Times New Roman', Times, serif;
+    border-collapse: collapse;
+    background-color: slateblue;
+    height: auto;
+    
+
+  }
+  .table-heading{
+    background-color: darkorange;
+    border: solid 1px black;
+    
+
+  }
+  .first-column{
+    padding-left: 100px;
+    padding-right: 20px;
+    color: orange;
+    padding-top: 30px;
+    font-size: 20px;
+  }
+  .second-column{
+    width: 200px;
+    padding-top: 30px;
+  
+  }
+#last{
+  background-color: darkorange;
+}
+#sub{
+  background-color: green;
+
+}
+#res{
+    background-color: orangered;
+}
+  

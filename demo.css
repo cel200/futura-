@@ -1,0 +1,12 @@
+body{
+    background-color: cadetblue;
+}
+.lorem{
+    background-color: darkgray;
+    color: beige;
+    width: 500px;
+}
+#sim{
+    background-color: dimgrey;
+    color: lightcoral;
+}

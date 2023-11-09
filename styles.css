@@ -1,0 +1,77 @@
+table {
+    border: solid 1px;
+    border-spacing: 4px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 50%;
+  }
+  
+  td {
+    background-color: #00ccff;
+    
+    padding: 3px;
+  }
+  
+  .first-column {
+        padding-right: 140px;
+
+        padding-left: 11px;
+  }
+  .second-column {
+    padding-left: 11px;
+  }
+  
+  
+  .table-heading {
+    background-color: wheat;
+    text-align: center;
+    color: #ec0d01;
+    font-size: 25px;
+    border: solid 1px black;
+
+}
+  
+  select {
+    background-color: white;
+    width: 500px;
+  }
+  
+  input[type="file"] {
+    background-color: white;
+  }
+  
+  input[type="text"] {
+    background-color: white;
+    width: 300px;
+  }
+  
+  input[type="password"] {
+    background-color: white;
+    width: 300px;
+  }
+  
+  .input-file {
+    text-align: center;
+  }
+  
+  input[type="radio"] {
+    background-color: white;
+  }
+  
+  textarea {
+    background-color: white;
+    text-align: center;
+    width: 500px;
+  }
+  button {
+    background-color:white;
+    
+    padding: 10px 20px;
+    border: none;
+    width: 250px;
+  }
+  
+  .buttons {
+    text-align: center;
+    padding-right: 13px;
+    padding-left: 13px;
+  }
