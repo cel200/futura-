@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3 class="header">H3 Heading</h3>
+    <h2 class="header">H2 Heading</h2>
+    <h1 class="header1">Lorem ipsum, dolor sit</h1>
+    <script>
+         document.querySelector(".header").innerHTML="Hey";
+         document.querySelector(".header").style.color="blue";
+
+        //  const node = document.querySelectorAll(".header");
+        //        for (let i = 0; i < node.length; i++)
+        //            {
+        //                   node[i].innerHTML = "Hello";
+        //             }
+
+        let heading = document.querySelector(".header1");
+        heading.innerHTML="Bye";
+        let styleObject = {"color": 'cyan', "background-color" :'beige'};
+        Object.assign(heading.style,styleObject);
+    </script>
+</body>
+</html>

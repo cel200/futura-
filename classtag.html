@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="header">Class1</h1>
+    <h3 class="header1">Class2</h3>
+    <h4 class="header1">Class3</h4>
+    <p>Lorem ipsum dolor sit</p>
+    <p>hey hello</p>
+    <script>
+              document.getElementsByTagName("p")[1].innerHTML="Bye"
+              const node = document.getElementsByClassName("header1");
+              for(let i=0;i< node.length;i++)
+              {
+                node[i].innerHTML="Hey";
+              }
+     </script>
+
+</body>
+</html>
